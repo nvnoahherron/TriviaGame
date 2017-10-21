@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+  </script>
+	<title>Milky Way Trivia</title>
+</head>
+<body>
+
+	<div id="container">
+
+		<div id="display">
+
+			<h1 id="trivia">Milky Way Trivia Game!</h1>
+			
+			<div id="start">
+
+				<button id="startButton">Start</button>
+				
+			</div>
+
+			<div id="questions">
+
+				<section id="timeClock"></section>
+
+				<h1>There is only one moon.</h1>
+					<input type="radio" name="q1" value="correct">True
+					<input type="radio" name="q1" value="incorrect">False
+				<h1>The moon revolves around the earth.</h1>
+					<input type="radio" name="q2" value="correct">True
+					<input type="radio" name="q2" value="incorrect">False
+				<h1>Venus is closests planet to the sun.</h1>
+					<input type="radio" name="q3" value="incorrect">True
+					<input type="radio" name="q3" value="correct">False
+				<h1>We could survive without the sun.</h1>
+					<input type="radio" name="q4" value="incorrect">True
+					<input type="radio" name="q4" value="correct">False
+				<h1>The moon is bigger than earth.</h1>
+					<input type="radio" name="q5" value="incorrect">True
+					<input type="radio" name="q5" value="correct">False
+				<h1>Jupiter is bigger than saturn.</h1>
+					<input type="radio" name="q6" value="correct">True
+					<input type="radio" name="q6" value="incorrect">False
+				<h1>Jupiter has more rings than saturn.</h1>
+					<input type="radio" name="q7" value="incorrect">True
+					<input type="radio" name="q7" value="correct">False
+				<h1>Pluto is a planet.</h1>
+					<input type="radio" name="q8" value="incorrect">True
+					<input type="radio" name="q8" value="correct">False
+				<section id="submit">
+					<button id="submitButton">Submit</button>
+				</section>
+				
+			</div>
+
+			<div id="results">
+
+				<div id="correctResults"></div>
+				<div id="incorrectResults"></div>
+				<div id="unansweredResults"></div>
+				
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
